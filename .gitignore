@@ -54,7 +54,7 @@ server.dylib.dSYM/
 
 # mod binaries
 game/mod_hl2mp_linux64
-game/mod_tf_linux64
+game/tf_invasion_linux64
 
 # generated static libraries
 src/lib/public/linux64/*.a
