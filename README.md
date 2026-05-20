@@ -1,17 +1,15 @@
-# Source SDK 2013
+# Team Fortress Invasion
 
-Source code for Source SDK 2013.
+Team Fortress Invasion is a project that aims to replicate once cannceled iteration of valve's Team Fortress 2 based on Source SDK 2013.
 
-Contains the game code for Half-Life 2, HL2: DM and TF2.
-
-**Now including Team Fortress 2! ✨**
-
+e.g. This project is not associated with Valve and Team Fortress/Team Fortress Invasion trademarks belong to Valve and poject name will be changed in future.
+ 
 ## Build instructions
 
 Clone the repository using the following command:
-
-`git clone https://github.com/ValveSoftware/source-sdk-2013`
-
+```bash
+git clone https://github.com/quellerz/team-fortress-invasion.git
+```
 ### Windows
 
 Requirements:
@@ -49,20 +47,14 @@ This will build all the projects related to the SDK and your mods automatically 
 
 You can then, in the root of the cloned directory, you can navigate to `game` and run your mod by launching the build launcher for your mod project, eg:
 ```bash
-./mod_tf
+./tf_invasion
 ```
 
 *Mods that are distributed on Steam MUST be built against the Steam Runtime, which the above steps will automatically do for you.*
 
-## Distributing your Mod
+## Extra links
 
-There is guidance on distributing your mod both on and off Steam available at the following link:
-
-https://partner.steamgames.com/doc/sdk/uploading/distributing_source_engine
-
-## Additional Resources
-
-- [Valve Developer Wiki](https://developer.valvesoftware.com/wiki/Source_SDK_2013)
+- [Team Fortress Invasion game design document](https://github.com/quellerz/team-fortress-invasion-design-document)
 
 ## License
 
