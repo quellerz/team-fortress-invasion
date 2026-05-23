@@ -140,6 +140,7 @@ CInventoryManager::CInventoryManager( void )
 //-----------------------------------------------------------------------------
 void CInventoryManager::SteamRequestInventory( CPlayerInventory *pInventory, CSteamID pSteamID, IInventoryUpdateListener *pListener )
 {
+    return;
 	// SteamID must be valid
 	if ( !pSteamID.IsValid() || !pSteamID.BIndividualAccount() )
 	{
